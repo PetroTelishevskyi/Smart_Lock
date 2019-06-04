@@ -1,0 +1,280 @@
+body {
+   background-color: #2f2f2f;
+ 	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    padding-top: 50px;
+	
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #FFF;
+}
+.tablehead{
+	color:#8c8c8c
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+	color : white;
+	hover: none;
+}
+
+
+ hr {
+    display: block;
+    height: 0px;
+    border: 0;
+    border-top: 0px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background-color: #34495e;
+	padding-top: 60px;
+}
+
+#headerwrap h1 {
+	margin-top: 30px;
+	color: white;
+	font-size: 70px;
+	
+}
+
+#headerwrap h3 {
+	color: white;
+	font-size: 30px;
+}
+
+#headerwrap h5 {
+	color: white;
+	font-weight: 700;
+	text-align: left;
+}
+
+#headerwrap p {
+	text-align: left;
+	color: white
+}
+
+/* intro Wrap */
+
+#intro {
+	padding-top: 50px;
+	border-top: #bdc3c7 solid 5px;
+}
+
+#features {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#features .ac a{
+	font-size: 20px;
+}
+
+/* Showcase Wrap */
+
+#showcase {
+	display: block;
+	background-color: #34495e;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#showcase h1 {
+	color: white;
+}
+
+#footerwrap {
+	background-color: #2f2f2f;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+
+#footerwrap h3 {
+	font-size: 28px;
+	color: white;
+}
+
+#footerwrap p {
+	color: white;
+	font-size: 18px;
+}
+
+/* Copyright Wrap */
+
+#c {
+	background: #222222;
+	padding-top: 15px;
+	text-align: right;
+}
+
+#c p {
+	color: white
+}
+.table-hover thead tr:hover th, .table-hover tbody tr:hover td {
+    background-color: #a9a9a9;
+}
+#blocked{
+	color:	#ef7676;
+}
+#active{
+	color: #00cc00;
+}
+#headtable{
+	background-color : #727272;
+}
+/*tut*/
+
+.line [class*=col-]{
+	padding:25px 10px
+}
+.line:nth-child(2n+1){
+	background:#2A3139
+}
+.line.header{
+	background:#32383a;
+	color:rgba(255,255,255,.4)
+}
+.line p{
+	padding:2.5px
+}
+.event p,.status p{
+	position:relative;
+	display:block
+}
+.event p:before,.status p:before{
+	content:'';
+	position:relative;
+	display:inline-block;
+	left:0;
+	top:0;
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	margin-right:6px
+}
+.success p:before{
+	background:green
+}
+.danger p:before{
+	background:red
+}
+.info p:before{
+	background:#1e90ff
+}
+.actions button{
+	margin-right:10px
+}
+.actions button:last-child{
+	margin-right:0
+}
+.modal-content{
+	background:#282727;
+	width: 450px;
+	border-radius:12px;
+}
+.modal-footer,.modal-header{
+	border:none
+}
+.table-modal .modal-body{
+	padding:1rem 0
+}
+.table-modal .modal-dialog{
+	max-width:800px
+}
+#viewLogs .modal-header{
+	padding:30px 30px 0
+}
+#viewLogs .line [class*=col-]{
+	padding:25px 30px
+}
+#serverError{
+	display:none
+}
+input {
+	width:350px;
+	padding:10px;
+	background-color: #fff;
+	border-radius: 8px;
+	margin-top: 5%;
+	position: relative;
+	Left:50%;
+	transform: translatex(-50%);
+}
+
+.box { 
+	height: 35px ;
+    width: 35px; 
+    margin: 3px; 
+	text-align: center;
+	padding: 0px;
+   }
+.btn-lg {
+    width:40%;
+}
+.btn-lg1{
+	width: 20%;
+}
+
+tr:nth-child(even) {
+    background-color: #4d4d4d
+}
+.box1 {
+	width: 45px; 
+	height: 35px; 
+    margin: 3px; 
+	text-align: center;
+	padding: 0px;
+   }
+.round::before{
+	content: '';
+    position: relative;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;	
+}
+.color_danger::before{
+	background-color:red;
+}
+.color_info::before{
+	background-color:#1e90ff;
+}
+.color_success::before{
+	background-color:green;
+}
+.modal-content1{
+ background:#282727;
+ border-radius:12px;
+ color:#fff;
+}
